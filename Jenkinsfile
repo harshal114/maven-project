@@ -9,7 +9,7 @@ pipeline
 			{ 
 				steps
 				{
-					branch: 'master', 'git:"https://github.com/harshal114/maven-project"'
+					branch: 'master', 'url:"https://github.com/harshal114/maven-project"'
 				}
 			}
 		
