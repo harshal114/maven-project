@@ -83,17 +83,5 @@ pipeline
 			
 				}
 			}
-
-				stage ('deploy  code')
-			{
-				steps
-				{
-				withMaven(maven: 'localmaven') {
-					sh 'mvn clean deploy'
-						
-						}
-			
-				}
-			}
 	}
 }
