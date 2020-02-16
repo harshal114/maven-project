@@ -30,7 +30,7 @@ pipeline
 				steps
 				{
 				withMaven(maven: 'localmaven') {
-					sh 'mvn complie'
+					sh 'mvn compile'
 						
 						}
 			
